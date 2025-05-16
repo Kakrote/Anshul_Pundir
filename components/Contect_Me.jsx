@@ -46,7 +46,7 @@ const ContactMe = () => {
             {contact.para.map((text, index) => (
               <p
                 key={index}
-                className={index === 0 ? 'text-3xl sm:text-4xl font-bold text-gray-800' : 'text-xl sm:text-2xl text-gray-700'}
+                className={index === 0 ? 'text-3xl sm:text-4xl font-serif font-bold text-gray-800' : 'text-xl sm:text-2xl text-gray-700'}
               >
                 {text}
               </p>
