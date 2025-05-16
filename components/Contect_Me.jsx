@@ -77,7 +77,7 @@ const ContactMe = () => {
                 onChange={handleChange}
                 required
                 placeholder="you@example.com"
-                className="mt-1 block w-full rounded-lg border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2"
+                className="mt-1 block font-serif w-full rounded-lg border text-gray-800 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2"
               />
             </div>
 
@@ -93,7 +93,7 @@ const ContactMe = () => {
                 onChange={handleChange}
                 required
                 placeholder="Type your message here..."
-                className="mt-1 block w-full rounded-lg border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2"
+                className="mt-1 font-serif block w-full rounded-lg border border-gray-300 text-gray-800 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2"
               />
             </div>
 
